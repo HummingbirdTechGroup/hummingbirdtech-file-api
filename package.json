@@ -2,11 +2,22 @@
   "name": "@Hummingbirdtech/file-api",
   "description": "HTML5 FileAPI `File` for Node.js",
   "url": "http://github.com/hummingbirdTechGroup/hummingbirdtech-file-api",
-  "keywords": [ "html5", "jsdom", "file-api", "file" ],
+  "keywords": [
+    "html5",
+    "jsdom",
+    "file-api",
+    "file"
+  ],
   "author": "Hummingbird Technologies Frontend Team",
-  "contributors": [ "aerlinn13" ],
+  "contributors": [
+    "aerlinn13"
+  ],
+  "scripts": {
+    "release": "node_modules/.bin/xyz --repo git@github.com:hummingbirdTechGroup/hummingbirdtech-file-api.git --increment"
+  },
   "dependencies": {
-    "mime": ">= 2.0.0"
+    "mime": ">= 2.0.0",
+    "xyz": "2.0.0"
   },
   "main": "File.js",
   "version": "0.0.1"
