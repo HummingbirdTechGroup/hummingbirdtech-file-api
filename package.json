@@ -1,5 +1,5 @@
 {
-  "name": "@Hummingbirdtech/file-api",
+  "name": "@hummingbirdtech/file-api",
   "description": "HTML5 FileAPI `File` for Node.js",
   "url": "http://github.com/hummingbirdTechGroup/hummingbirdtech-file-api",
   "keywords": [ "html5", "jsdom", "file-api", "file" ],
